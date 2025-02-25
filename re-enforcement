@@ -1,1 +1,38 @@
+APS (algorithmic problem solving)
+first class with ph sir
+we started with probability . first question was
 
+    "there is bag with two hats in it red and blue. everytime when you pick red  hat ,you add another red hat to bag . everytime when you pick blue hat,
+you add another blue hat to the bag run these iteration 100 times for every iteration print the hat selected the total number of hats in the bag and
+probability of selecting red and blue hat"
+
+if we pick red then we add blue to bag
+if we pick blue then add red to it
+
+printing the probabilties of picking red and blue for iteration
+
+in this we get probabilty of 7:3 (70% 30%)
+
+here the main reason is reinforcement
+in probablity we have another rule that is 
+"Polya's urn model"
+where past or previous selection effect on future probability
+   Real-World Applications:
+Financial markets → Popular stocks get more investment, increasing their dominance.
+Social networks → Viral content gets more engagement, reinforcing its reach.
+Machine learning → Reinforcement learning adapts based on past successes.
+
+
+
+
+2nd question is 
+
+# prompt: there is bag with two hats in it red and blue. everytime when you pick red  hat you will add  blue hat to bag .  when you pick blue hat you  will add  red hat to the bag
+# run these iteration 100 times for every iteration print the hat selected the total number of hats in the bag and probability of selecting red and blue hat
+
+
+
+it get 50:50
+
+because we were adding opposite color when we pick something 
+it always try to be at equilibrium
