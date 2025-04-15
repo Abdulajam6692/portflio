@@ -1,0 +1,35 @@
+Operation | Time
+Insert | O(log N)
+Search | O(log N)
+Delete | O(log N)
+
+
+1. Insert elements
+mp["apple"] = 100;
+mp.insert({"banana", 120});
+
+2. Access value by key
+cout << mp["apple"];  // Output: 100
+
+
+3. Find an element
+if (mp.find("apple") != mp.end()) {
+    cout << "Found!";
+} else {
+    cout << "Not Found!";
+}
+
+4. Traverse a map
+for (auto it : mp) {
+    cout << it.first << " -> " << it.second << endl;
+}
+
+Or with iterator:
+for (auto it = mp.begin(); it != mp.end(); ++it) {
+    cout << it->first << " = " << it->second << endl;
+}
+
+
+6. Size and Clear
+cout << mp.size();   // Number of key-value pairs
+mp.clear();          // Removes all entries
