@@ -1,0 +1,32 @@
+it is similar as what we use in mathematics
+it store only distinct element
+cant store duplicate value
+
+Operation       | Code          | Time
+________________________________________
+Insert          | s.insert(x)   | O(log n)
+Erase           | s.erase(x)    | O(log n)
+Find            | s.find(x)     | O(log n)
+Size            | s.size()      | O(1)
+Check if exists | s.count(x)    | O(log n)
+
+*** Internally use Red black Tree..
+
+To insert :
+    set.insert(value);
+To delete:
+    set.erase(value);
+To find:
+    set.find(value);
+
+************************************
+ auto it=s.find(b);
+        if(it != s.end())
+        {
+            cout<<"Yes"<<endl;
+        }
+        else
+        {
+            cout<<"No"<<endl;
+        }
+************************************
